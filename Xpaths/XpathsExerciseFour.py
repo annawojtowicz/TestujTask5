@@ -1,0 +1,13 @@
+class XpathsExcerciseFour:
+    contact_us = '//h4[contains(text(), "Contact Us Form")]'
+    first_name = '//form[@id="contact_form"]/input[@name="first_name"]'
+    last_name = '//form[@id="contact_form"]/input[@name="last_name"]'
+    email = '//form[@id="contact_form"]/input[@name="email"]'
+    textarea= '//form[@id="contact_form"]/textarea[@name="message"]'
+    first_name_input = 'QA'
+    last_name_input = 'Test'
+    email_input = 'qaselenium@niepodam.pl'
+    textarea_input = 'Lorem ipsum'
+    submit = '//input[@type="submit"]'
+    success = '//h1[contains(text(), "Thank You for your Message!")]'
+    url = 'http://webdriveruniversity.com/index.html'
