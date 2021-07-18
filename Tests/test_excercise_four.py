@@ -1,6 +1,4 @@
-
 from selenium.webdriver.chrome.webdriver import WebDriver
-
 
 from Xpaths.XpathsExerciseFour import XpathsExcerciseFour
 from driver import Driver

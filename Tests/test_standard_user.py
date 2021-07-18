@@ -1,6 +1,5 @@
 from selenium.webdriver.chrome.webdriver import WebDriver
 
-
 from Xpaths.xpathssaucedemo import XpathsSauceDemo
 from driver import Driver
 

@@ -11,4 +11,4 @@ def driver() -> WebDriver:
     try:
         yield driver
     finally:
-        driver.close()
+        driver.quit()
